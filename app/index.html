@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="jpmcApp">
+<head>
+  <meta charset="utf-8">
+  <title>JPMC OSS Management Program</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="index.js"></script>
+  <script src="directives/template-directives.js"></script>
+<body ng-controller="IndexCtrl">
+<my-create-component-modal></my-create-component-modal>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h3><pre>{{componentsAsString}}</pre></h3>
+
+</body>
+</html>
